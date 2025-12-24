@@ -8,7 +8,7 @@ function ViewJobs() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:8081/api/jobs") // backend endpoint
+      .get("https://jobportalproject-1.onrender.com/api/jobs") // backend endpoint
       .then((response) => setJobs(response.data))
       .catch((error) => console.error("Error fetching jobs:", error));
   }, []);
