@@ -13,7 +13,7 @@ function Login({ setUser }) {
     e.preventDefault();
 
     try {
-      const res = await fetch("http://localhost:8082/api/user/login", {
+      const res = await fetch("https://jobportalproject-1.onrender.com/api/user/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(form),

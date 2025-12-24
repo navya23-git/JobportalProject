@@ -59,7 +59,7 @@ function AptitudeTest() {
     try {
       setSubmitting(true);
 
-      const res = await fetch("http://localhost:8082/api/aptitude/submit", {
+      const res = await fetch("https://jobportalproject-1.onrender.com/api/aptitude/submit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
