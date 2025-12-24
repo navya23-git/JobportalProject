@@ -110,7 +110,7 @@ public class ApplicationService {
         app.setMessage(message);
         app.setJobId(jobId);
         app.setResumePath(filePath);
-//        app.setStatus("APPLIED"); // default status
+        app.setStatus("APPLIED"); // default status
 
         return applicationRepository.save(app);
     }

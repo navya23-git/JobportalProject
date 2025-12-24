@@ -67,7 +67,7 @@ public class ApplicationController {
             application.setMessage(message);
             application.setJobId(jobId);
             application.setResumePath(filePath.toString());
-//            application.setStatus("PENDING");
+            application.setStatus("PENDING");
 
             // ✅ SAVE & CAPTURE
             Application savedApplication =
